@@ -1,0 +1,17 @@
+apply plugin: 'com.android.library'
+
+repositories {
+	mavenCentral()
+	google()
+}
+
+android {
+	compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+	buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+}
+
+dependencies {
+	implementation project(':deps:extension-api')
+	implementation 'androidx.core:core:1.2.0'
+	implementation 'com.google.code.gson:gson:2.10.1'
+}

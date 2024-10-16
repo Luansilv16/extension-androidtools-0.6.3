@@ -1,0 +1,17 @@
+{
+	"name": "extension-androidtools",
+	"url": "https://github.com/MAJigsaw77/extension-androidtools",
+	"license": "MIT",
+	"tags": [
+		"android",
+		"java",
+		"haxe",
+		"jni"
+	],
+	"description": "A Haxe/Lime extension that incorporates Java functions through JNI.",
+	"version": "2.0.3",
+	"releasenote": "Fixed a gradle compile issue.",
+	"contributors": [
+		"MAJigsaw77"
+	]
+}
